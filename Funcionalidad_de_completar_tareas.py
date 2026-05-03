@@ -15,4 +15,6 @@ class Tablero:
                 self.pendiente.append(t)
             elif t.estado == "En progreso":
                 self.en_progreso.append(t)
-       
+                
+            elif t.estado == "Completada":
+                self.completadas.append(t)
