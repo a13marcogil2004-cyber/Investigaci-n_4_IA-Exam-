@@ -7,7 +7,7 @@ class Tarea:
     def iniciar(self):
         self.estado = "En progreso"
 
-     def completar(self):
+    def completar(self):
         self.estado = "Completada"
 
 class sprint:
@@ -15,7 +15,7 @@ class sprint:
         self.numero = numero
         self.tareas = []
 
-     def agregar_tarea(self, tarea):
+    def agregar_tarea(self, tarea):
         self.tareas.append(tarea)
 
     def obtener_tareas(self):
