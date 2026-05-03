@@ -10,7 +10,8 @@ class Tarea:
     def completar(self):
         self.estado = "Completada"
 
-class sprint:
+
+class Sprint:
     def __init__(self, numero):
         self.numero = numero
         self.tareas = []
