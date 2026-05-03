@@ -15,3 +15,6 @@ class sprint:
         self.numero = numero
         self.tareas = []
 
+     def agregar_tarea(self, tarea):
+        self.tareas.append(tarea)
+        
