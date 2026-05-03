@@ -9,3 +9,10 @@ class Tablero:
         self.pendiente.clear()
         self.en_progreso.clear()
         self.completadas.clear()
+
+        for t in tareas:
+            if t.estado == "Pendiente":
+                self.pendiente.append(t)
+            elif t.estado == "En progreso":
+                self.en_progreso.append(t)
+       
