@@ -15,6 +15,15 @@ class Tablero:
                 self.pendiente.append(t)
             elif t.estado == "En progreso":
                 self.en_progreso.append(t)
-                
+
             elif t.estado == "Completada":
                 self.completadas.append(t)
+
+    def mostrar(self):
+        print("\n=== TABLERO SCRUM ===")
+
+        print("\nPendiente:")
+        for t in self.pendiente:
+            print("-", t.nombre),
+
+        print("\nEn progreso:")
