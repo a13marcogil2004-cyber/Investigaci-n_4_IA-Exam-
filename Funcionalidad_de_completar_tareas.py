@@ -27,3 +27,5 @@ class Tablero:
             print("-", t.nombre),
 
         print("\nEn progreso:")
+        for t in self.en_progreso:
+            print("-", t.nombre)
