@@ -24,8 +24,12 @@ class Tablero:
 
         print("\nPendiente:")
         for t in self.pendiente:
-            print("-", t.nombre),
+            print("-", t.nombre)
 
         print("\nEn progreso:")
         for t in self.en_progreso:
+            print("-", t.nombre)
+
+        print("\nCompletadas:")
+        for t in self.completadas:
             print("-", t.nombre)
